@@ -111,4 +111,8 @@ public class StringUtils {
                 .map(w -> length(w) > 2 ? StringUtils.capitalize(w) : w)
                 .collect(Collectors.joining(delimiter));
     }
+
+    public static String removeNonDigits(String str) {
+        return Normalizer.normalize(str, Normalizer.Form.NFD).replaceAll("\\D+", "").trim();
+    }
 }
