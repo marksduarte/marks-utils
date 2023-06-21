@@ -1,6 +1,6 @@
 # Marks Utils
 
-Repositório dedicado em manter scripts, trechos de códigos ou classes utilitárias que utilizo no dia-a-dia dos projetos.
+Repositório dedicado em manter scripts, trechos de códigos e classes utilitárias que utilizo no dia-a-dia dos projetos.
 
 
 ## Autores
